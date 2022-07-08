@@ -1,0 +1,4 @@
+baseURL = "http://adamknezevic.com"
+languageCode = "en-us"
+title = "Adam Knezevic"
+theme = "anatole"
