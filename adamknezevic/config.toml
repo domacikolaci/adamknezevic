@@ -2,3 +2,16 @@ baseURL = "http://adamknezevic.com"
 languageCode = "en-us"
 title = "Adam Knezevic"
 theme = "anatole"
+
+[params]
+title = "Hey, i'm Adam!"
+author = "Adam Knezevic"
+description = "Welcome to my virtual resume and private blog"
+profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/adamknezevic/"
+
+copyright = "{{ YEAR }}"
