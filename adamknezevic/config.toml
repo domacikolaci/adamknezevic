@@ -15,3 +15,4 @@ title = "Linkedin"
 url = "https://www.linkedin.com/in/adamknezevic/"
 
 copyright = "{{ YEAR }}"
+contentDir = "contents/posts"
