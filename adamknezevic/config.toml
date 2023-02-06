@@ -11,7 +11,18 @@ displayMode = "dark"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://linkedin.com/adamknezevic/"
+url = "https://www.linkedin.com/in/adamknezevic/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/domacikolaci"
+
+[[params.socialIcons]]
+icon = "fab fa-git"
+title = "GitTea"
+url = "https://git.volkor.me/domacikolaci"
+
 
 [menu]
 
@@ -22,17 +33,16 @@ url = "https://linkedin.com/adamknezevic/"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
   [[menu.main]]
   name = "About"
   weight = 300
   identifier = "about"
-  url = "/about/"
-
+  url = "/about/about/"
 
 copyright = "2020-{{ YEAR }}"
 #Reminder - Keep this at bottom always
