@@ -1,18 +1,44 @@
-baseURL = "http://adamknezevic.com"
-languageCode = "en-us"
-title = "Adam Knezevic"
-theme = "anatole"
+baseURL = 'http://adamkenzevic.com/'
+languageCode = 'en-us'
 
 [params]
-title = "Hey, i'm Adam!"
+title = "Adam Knezevic"
 author = "Adam Knezevic"
-description = "Welcome to my virtual resume and private blog"
-profilePicture = "images/profile.jpg"
+description = "IT Security & Project Engineer for large MSP in Australia"
+profilePicture = "images/me.jpg"
+displayMode = "dark"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://www.linkedin.com/in/adamknezevic/"
+url = "https://linkedin.com/adamknezevic/"
 
-copyright = "{{ YEAR }}"
-contentDir = "contents/posts"
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+
+copyright = "2020-{{ YEAR }}"
+#Reminder - Keep this at bottom always
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
