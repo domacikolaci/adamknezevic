@@ -4,7 +4,7 @@ languageCode = 'en-us'
 [params]
 title = "Adam Knezevic"
 author = "Adam Knezevic"
-description = "IT Security & Project Engineer for large MSP in Australia"
+description = "IT Security & Project Engineer for a large MSP in Australia"
 profilePicture = "images/me.jpg"
 displayMode = "dark"
 
@@ -26,11 +26,16 @@ url = "https://git.volkor.me/domacikolaci"
 
 [menu]
 
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+ [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/about/"
+  #[[menu.main]]
+  #name = "Home"
+  #identifier = "home"
+  #weight = 100
+  #url = "/"
 
   [[menu.main]]
   name = "Blog"
@@ -38,11 +43,7 @@ url = "https://git.volkor.me/domacikolaci"
   identifier = "blog"
   url = "/blog/"
 
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/about/"
+ 
 
 copyright = "2020-{{ YEAR }}"
 #Reminder - Keep this at bottom always
