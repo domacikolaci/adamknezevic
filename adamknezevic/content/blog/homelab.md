@@ -13,3 +13,8 @@ Cynicism aside, labbing at home can be very fun and rewarding, both for improvin
 Feel like stepping foot into Linux tonight? Cool! Make a new VM with Ubuntu Server and get going!
 
 Want to try your hand at SIEM? Sweet! Spin up a Wazuh instance and lets get started pushing agents out onto all your endpoints at home!
+
+
+# Guides
+
+# Tips
