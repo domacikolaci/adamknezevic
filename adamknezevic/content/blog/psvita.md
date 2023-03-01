@@ -13,6 +13,10 @@ Recently, I purchased a Vita and boooyyy is this thing fun to hack. Got this thi
 
 # Guide
 
-# Fav things to do
+The best thing to do with starting off is checking in with the site vita.hacks.guide as this site will contain the most up to date methods for modding the vita (including the recent discovery for 1000 models where you dont need an official memory card anymore since you can make a 1GB partition now from the system storage)
+
+# Fav things to do post hack
+
+Right off the bat, I would suggest 
 
 # Tips
