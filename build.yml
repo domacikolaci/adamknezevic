@@ -23,5 +23,5 @@ jobs:
       submodules: true
   - name: Build and deploy
     env:
-      HUGO_ARGS: '--ninify --CleanDestinationDir'
+      HUGO_ARGS: '--minify --CleanDestinationDir'
     uses: victoriadrake/hugo-remote@master
