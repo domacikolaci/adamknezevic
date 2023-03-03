@@ -32,7 +32,7 @@ Otherwise, if I am not doing any of that in my spare time I am often just tinker
 ## Qualifications
 
 **Fortinet**
+NSE 1, 2 & 3
 
 **WatchGuard**
-
-**Education**
+WatchGuard Essentials & WatchGuard TDR

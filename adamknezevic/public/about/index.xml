@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on </title>
+    <link>http://adamkenzevic.com/about/</link>
+    <description>Recent content in Abouts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 00:03:29 +1100</lastBuildDate><atom:link href="http://adamkenzevic.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who is Adam knezevic?</title>
+      <link>http://adamkenzevic.com/about/about/</link>
+      <pubDate>Tue, 07 Feb 2023 00:03:29 +1100</pubDate>
+      
+      <guid>http://adamkenzevic.com/about/about/</guid>
+      
+        <description>The rundown Currently I am a IT network security engineer and project resource for one of Australia&amp;rsquo;s larget MSP&amp;rsquo;s, Virtual IT Group (VITG).
+I am a avid explorer of all things &amp;ldquo;computers&amp;rdquo;. My entire experience and knowledge is based on simply pushing buttons to see what they do, how they operate and if something explodes&amp;hellip;. why?
+Experience The quick summary would be,
+ 6+ years working in the MSP (Managed Service Provider) industry.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

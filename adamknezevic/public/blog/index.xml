@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on </title>
+    <link>http://adamkenzevic.com/blog/</link>
+    <description>Recent content in Blogs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:36 +1100</lastBuildDate><atom:link href="http://adamkenzevic.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://adamkenzevic.com/blog/hello-world/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:36 +1100</pubDate>
+      
+      <guid>http://adamkenzevic.com/blog/hello-world/</guid>
+      
+        <description>Hello World! Hi, im Adam. This is me starting up a new site with a domain ive had for a few years now. Mainly me experementing with Hugo + might make some blog posts about fun disocoveries I make overtime.
+Feel free to explore the site!</description>
+      
+    </item>
+    
+  </channel>
+</rss>

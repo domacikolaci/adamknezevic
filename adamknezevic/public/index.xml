@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://adamkenzevic.com/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 00:03:29 +1100</lastBuildDate><atom:link href="http://adamkenzevic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who is Adam knezevic?</title>
+      <link>http://adamkenzevic.com/about/about/</link>
+      <pubDate>Tue, 07 Feb 2023 00:03:29 +1100</pubDate>
+      
+      <guid>http://adamkenzevic.com/about/about/</guid>
+      
+        <description>The rundown Currently I am a IT network security engineer and project resource for one of Australia&amp;rsquo;s larget MSP&amp;rsquo;s, Virtual IT Group (VITG).
+I am a avid explorer of all things &amp;ldquo;computers&amp;rdquo;. My entire experience and knowledge is based on simply pushing buttons to see what they do, how they operate and if something explodes&amp;hellip;. why?
+Experience The quick summary would be,
+ 6+ years working in the MSP (Managed Service Provider) industry.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://adamkenzevic.com/blog/hello-world/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:36 +1100</pubDate>
+      
+      <guid>http://adamkenzevic.com/blog/hello-world/</guid>
+      
+        <description>Hello World! Hi, im Adam. This is me starting up a new site with a domain ive had for a few years now. Mainly me experementing with Hugo + might make some blog posts about fun disocoveries I make overtime.
+Feel free to explore the site!</description>
+      
+    </item>
+    
+  </channel>
+</rss>
