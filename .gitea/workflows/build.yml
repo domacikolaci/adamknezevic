@@ -12,16 +12,13 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out master
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
-          submodules: true
-      - name: Build and deploy
-        env:
-          HUGO_ARGS: '--minify --CleanDestinationDir'
-        uses: victoriadrake/hugo-remote@master
+    - uses: actions/checkout@master
+    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
+      with:
+        args: --minify --buildDrafts
+    - uses: actions/upload-artifact@master
+      with:
+        name: website
+        path: './public'
