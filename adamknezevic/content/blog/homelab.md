@@ -1,7 +1,7 @@
 ---
 title: "Homelab"
 date: 2023-02-09T23:56:29+11:00
-draft: true
+draft: false
 ---
 
 ## So, you want the joys of being a sysadmin at home to huh?
@@ -24,10 +24,10 @@ Main docker containers I have in my network would be TailScale for remote access
 
 I have found this to work well enough for the day to day needs of myself plus the home. I have tried to use Home Assistant via Docker also but have found the limitations to tricky to work with and instead am looking to just make a dedicated VM for this sometime in the future, or buy a Raspberry Pi for this (once those things become avalible again)
 
-Apart from the above, I do also have a old HPE and Dell server kicker around both with reasonble specs for a ESXi lab, however, these only ever get turned on for when my labbing needs require it and mainly just get scrapped for parts for the Cisco or collect dust sadly. Power bills unfortunetly stopping me from running a 24/7 mini DC in my garage + the noise dosnt help with any approval from the missess ;)
-
-# Guides
+Apart from the above, I do also have a old HPE and Dell server kicking around both with reasonble specs for a ESXi lab, however, these only ever get turned on for when my labbing needs require it and mainly just get scrapped for parts for the Cisco or collect dust sadly. Power bills unfortunetly stopping me from running a 24/7 mini DC in my garage + the noise dosnt help with any approval from the missess ;)
 
 # Tips
 
-If you are every considering TrueNAS for your NAS needs, I strongly recommend running it in a VM. If I could go back, that server would be running in ESXi or Hyper-V or Proxmox (depending how I felt in the moment, but most likely the free version of ESXi) and been virtualised. I find that the VM capabilies of Scale to be to unreliable despite just being a pretty UI for QEMU, so any VM work I could have done on this server is now out the window. As this is the case, I am stuck with either Docker containers or instead, having to use another device for VM work such as my local PC or another one of the servers.
+If you are ever considering TrueNAS for your NAS needs, I strongly recommend running it in a VM. If I could go back, that server would be running in ESXi or Hyper-V or Proxmox (depending how I felt in the moment, but most likely the free version of ESXi) and been virtualised. I find that the VM capabilies of Scale to be to unreliable despite just being a pretty UI for QEMU, so any VM work I could have done on this server is now out the window. As this is the case, I am stuck with either Docker containers or instead, having to use another device for VM work such as my local PC or another one of the servers.
+
+Only thing to note on this would be to ensure you pass the disks through the hypervisor and direct to the VM, as ZFS gets very fussy if you dont do this and can leave to instability with the raid and potentially crash your raid.
